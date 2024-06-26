@@ -13,6 +13,7 @@
     top: 50%;
     transform: translate(-50%, -50%);
     border-radius: 10px;
+    box-shadow: 0 9px #999;
     
 }
 
@@ -33,6 +34,7 @@
     border: none;
     background-color: #000;
     color: white;
+    box-shadow: 0 9px #999;
 }
 
 /* Textbar styling */
@@ -43,4 +45,5 @@
     text-align: center;
     border: solid black 1px;
     border-radius: 10px;
+    box-shadow: 0 9px #999;
 }
