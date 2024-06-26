@@ -1,3 +1,7 @@
+//Accessing textbar and button from document
+const textbar = document.getElementById('textbar');
+const generateButton = document.getElementById('generate-button');
+
 //Arrays of different words to choose from
 const randomWords = [
     "Apple",
