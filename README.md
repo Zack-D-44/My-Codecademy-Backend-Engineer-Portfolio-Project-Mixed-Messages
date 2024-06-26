@@ -18,3 +18,4 @@ To try this project:
 - HTML
 - CSS
 - JavaScript
+- Git
