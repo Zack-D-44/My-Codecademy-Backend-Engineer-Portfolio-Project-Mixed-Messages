@@ -1,0 +1,36 @@
+* {
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.container {
+    border: solid black 1px;
+    padding: 40px;
+    width: 25%;
+}
+
+/* Centre utility class */
+.centre {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Styling for button */
+#generate-button {
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 0.75rem rgb(161, 50, 50));
+    margin-top: 10px;
+}
+
+/* Textbar styling */
+#textbar {
+    width: 300px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border: solid black 1px;
+}
