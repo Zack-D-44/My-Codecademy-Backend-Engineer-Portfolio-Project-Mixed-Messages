@@ -11,6 +11,7 @@ This is a random message generator that made using HTML, CSS and JavaScript that
 
 ### How To Use
 To try this project:  
+- Clone the repository using the `git clone` command
 - Open the index.html file in your browser
 - Press the generate message button on the page and a message will be generated
 
