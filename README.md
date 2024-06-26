@@ -1,5 +1,5 @@
 # My-Codecademy-Backend-Engineer-Portfolio-Projects-Mixed-Messages
-I am currently working towards attaining Codecademy's backend engineer career path certification. Throughout the certification there are various portfolio projects. This is one of the projects that is named Mixed Messages
+I am currently working towards attaining Codecademy's backend engineer career path certification. Throughout the certification there are various portfolio projects. This is one of the projects that is named Mixed Messages. Throughout this project I was allowed to express my own individual creativity which made it a lot of fun.
 
 ## Mixed Messages
 This is a random message generator that made using HTML, CSS and JavaScript that creates randomised messages of varied length at the click of a button.
