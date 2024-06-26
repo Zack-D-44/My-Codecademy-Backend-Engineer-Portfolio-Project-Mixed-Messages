@@ -1,12 +1,15 @@
+/* Styling document as whole */
 html {
     background-color: #cfbebe;
 }
 
+/* Setting font and font size for all elements */
 * {
     font-family: Roboto;
     font-size: 16px;
 }
 
+/* Container that textbar and generate message button are in */
 .container {
     border: solid black 1px;
     padding: 40px;
@@ -41,6 +44,7 @@ html {
     box-shadow: 0 9px #999;
 }
 
+/* Generate button pressing effect */
 #generate-button:active {
     transform: translate(0px, 4px);
 }
