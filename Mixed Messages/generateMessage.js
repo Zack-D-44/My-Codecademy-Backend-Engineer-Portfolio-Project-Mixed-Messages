@@ -78,7 +78,9 @@ const constructMessage = () => {
         //push a new random word to message array 
         message.push(chooseRandomWord(randomWords));
     }
+
+    //Set textbar value to new message
+    textbar.value = message.join(' ');
 }
-
-
-
+//Adding event listener so that new message generated when user clicks
+generateButton.addEventListener('click', constructMessage);
