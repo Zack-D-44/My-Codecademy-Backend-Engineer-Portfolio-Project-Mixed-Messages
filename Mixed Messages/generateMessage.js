@@ -43,7 +43,8 @@ const randomWords = [
     "Kettle",
     "Lantern",
     "Meadow",
-    "Nightingale"];
+    "Nightingale"
+];
 
 //create function that decides word length
 const messageLength = () => {
