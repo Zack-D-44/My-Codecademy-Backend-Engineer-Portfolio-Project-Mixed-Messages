@@ -37,6 +37,10 @@
     box-shadow: 0 9px #999;
 }
 
+#generate-button:active {
+    transform: translate(0px, 4px);
+}
+
 /* Textbar styling */
 #textbar {
     width: 370px;
