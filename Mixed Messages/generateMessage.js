@@ -39,7 +39,7 @@ const randomWords = [
     "Kettle",
     "Lantern",
     "Meadow",
-    "Nightingale"]
+    "Nightingale"];
 
 //create function that decides word length
 const messageLength = () => {
@@ -49,7 +49,7 @@ const messageLength = () => {
 
     while(lengthOfMessage === 0){
         //assigning length of message new random value, if value is 0 loop will repeat
-        lengthOfMessage = Math.floor(Math.random() * 5);
+        lengthOfMessage = Math.floor(Math.random() * 6);
     }
 
     return lengthOfMessage;
@@ -58,6 +58,23 @@ const messageLength = () => {
 //Choose random word from array
 
 const chooseRandomWord = (arr) => {
-
+    //Select random word from array and return it\
+    return arr[Math.floor(Math.random() * arr.length)];
 }
+
+//Function to construct the message
+const constructMessage = () => {
+    //array that will contain message
+    let message = [];
+    //variable setting the length of the message
+    const lengthOfMessage = messageLength();
+
+    //loop for the same length of the message
+    for(let i = lengthOfMessage; i > 0; i--){
+        //push a new random word to message array 
+        message.push(chooseRandomWord(randomWords));
+    }
+}
+
+
 
